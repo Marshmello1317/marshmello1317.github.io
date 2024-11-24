@@ -4,21 +4,41 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 header h1 {
     margin: 0 auto;
     font-size: 40px;
     font-weight: 700;
-    color: #333;
+    color: antiquewhite;
+
 }
 
 nav ul {
     display: flex;
     list-style: none;
+    font-size: 1.3rem;
 }
 
 nav ul li {
     margin-right: 20px;
     justify-content: space-between;
+}
+main h1 {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+main article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+main img {
+    width: 650px;
+    height: 850px;
 }
